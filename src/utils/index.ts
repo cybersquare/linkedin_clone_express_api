@@ -3,4 +3,4 @@ export { ROUTES} from "./routes";
 export {constants}
 
 export {getAccessToken, setAccessToken,
-    getRefreshToken, setRefreshToken} from "./helper";
+    getRefreshToken, setRefreshToken, GetLanguage} from "./helper";

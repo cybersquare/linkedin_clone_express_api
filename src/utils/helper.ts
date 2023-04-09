@@ -26,5 +26,11 @@ function setRefreshToken(token:string):boolean{
 }
 
 
+ const GetLanguage = () => {
+    return constants.AppDefaults.language;
+  };
+  
+
+
 export {getAccessToken, setAccessToken,
-    getRefreshToken, setRefreshToken};
+    getRefreshToken, setRefreshToken, GetLanguage};

@@ -2,7 +2,7 @@ import React from "react";
 import { ErrorBoundary } from "../../../components/templates";
 import SignupCompnent from "./signup";
 
-const Login: React.FC<{}>=({})=>{
+const Signup: React.FC<{}>=({})=>{
     return(
         <ErrorBoundary>
             <SignupCompnent/>
@@ -11,4 +11,4 @@ const Login: React.FC<{}>=({})=>{
 
 }
 
-export default Login;
+export default Signup;
